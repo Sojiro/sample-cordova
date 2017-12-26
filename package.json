@@ -1,0 +1,25 @@
+{
+    "name": "com.coolappz.sampleandriod",
+    "displayName": "SampleCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "angular": "^1.6.8",
+        "cordova-android": "^7.0.0",
+        "cordova-plugin-dialogs": "git+https://github.com/apache/cordova-plugin-dialogs.git"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-dialogs": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
