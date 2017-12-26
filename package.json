@@ -21,5 +21,8 @@
         "platforms": [
             "android"
         ]
+    },
+    "devDependencies": {
+        "typescript": "^2.6.2"
     }
 }
